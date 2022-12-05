@@ -1,0 +1,1407 @@
+{
+  "tree": [
+    {
+      "tank_id": "G12_Ltraktor",
+      "nation": "germany",
+      "row": 7,
+      "col": 1,
+      "slug": "ltr",
+      "name": "Leichttraktor",
+      "short_name": "L.Tr.",
+      "tier": 1,
+      "type": "light",
+      "price": 0,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G06_PzII",
+          "nation": "germany",
+          "tank_xp": 275,
+          "module_xp": 35
+        }
+      ]
+    },
+    {
+      "tank_id": "G06_PzII",
+      "nation": "germany",
+      "row": 7,
+      "col": 2,
+      "slug": "pz-ii",
+      "name": "Pz.Kpfw. II",
+      "short_name": "Pz. II",
+      "tier": 2,
+      "type": "light",
+      "price": 3000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G102_Pz_III",
+          "nation": "germany",
+          "tank_xp": 1500,
+          "module_xp": 180
+        },
+        {
+          "tank_id": "G82_Pz_II_AusfG",
+          "nation": "germany",
+          "tank_xp": 1680,
+          "module_xp": 35
+        }
+      ]
+    },
+    {
+      "tank_id": "G102_Pz_III",
+      "nation": "germany",
+      "row": 7,
+      "col": 3,
+      "slug": "pz-iii-e",
+      "name": "Pz.Kpfw. III Ausf. E",
+      "short_name": "Pz. III E",
+      "tier": 3,
+      "type": "light",
+      "price": 35000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G101_StuG_III",
+          "nation": "germany",
+          "tank_xp": 3800,
+          "module_xp": 935
+        },
+        {
+          "tank_id": "G10_PzIII_AusfJ",
+          "nation": "germany",
+          "tank_xp": 3800,
+          "module_xp": 435
+        }
+      ]
+    },
+    {
+      "tank_id": "G82_Pz_II_AusfG",
+      "nation": "germany",
+      "row": 11,
+      "col": 3,
+      "slug": "pz-ii-g",
+      "name": "Pz.Kpfw. II Ausf. G",
+      "short_name": "Pz. II G",
+      "tier": 3,
+      "type": "light",
+      "price": 39700,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G25_PzII_Luchs",
+          "nation": "germany",
+          "tank_xp": 4400,
+          "module_xp": 540
+        }
+      ]
+    },
+    {
+      "tank_id": "G101_StuG_III",
+      "nation": "germany",
+      "row": 2,
+      "col": 4,
+      "slug": "stug-iii-b",
+      "name": "StuG III Ausf. B",
+      "short_name": "StuG III B",
+      "tier": 4,
+      "type": "td",
+      "price": 130000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G23_Grille",
+          "nation": "germany",
+          "tank_xp": 16330,
+          "module_xp": 5940
+        },
+        {
+          "tank_id": "G05_StuG_40_AusfG",
+          "nation": "germany",
+          "tank_xp": 12640,
+          "module_xp": 2140
+        }
+      ]
+    },
+    {
+      "tank_id": "G10_PzIII_AusfJ",
+      "nation": "germany",
+      "row": 7,
+      "col": 4,
+      "slug": "pz-iii-j",
+      "name": "Pz.Kpfw. III Ausf. J",
+      "short_name": "Pz. III J",
+      "tier": 4,
+      "type": "medium",
+      "price": 138000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G81_Pz_IV_AusfH",
+          "nation": "germany",
+          "tank_xp": 12800,
+          "module_xp": 2525
+        },
+        {
+          "tank_id": "G13_VK3001H",
+          "nation": "germany",
+          "tank_xp": 13600,
+          "module_xp": 1975
+        }
+      ]
+    },
+    {
+      "tank_id": "G25_PzII_Luchs",
+      "nation": "germany",
+      "row": 11,
+      "col": 4,
+      "slug": "luchs",
+      "name": "Pz.Kpfw. II Luchs",
+      "short_name": "Luchs",
+      "tier": 4,
+      "type": "light",
+      "price": 155000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G26_VK1602",
+          "nation": "germany",
+          "tank_xp": 13500,
+          "module_xp": 2010
+        }
+      ]
+    },
+    {
+      "tank_id": "G23_Grille",
+      "nation": "germany",
+      "row": 1,
+      "col": 5,
+      "slug": "grille",
+      "name": "Grille",
+      "short_name": "Grille",
+      "tier": 5,
+      "type": "spg",
+      "price": 400000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G02_Hummel",
+          "nation": "germany",
+          "tank_xp": 28400,
+          "module_xp": 5500
+        }
+      ]
+    },
+    {
+      "tank_id": "G05_StuG_40_AusfG",
+      "nation": "germany",
+      "row": 2,
+      "col": 5,
+      "slug": "stug-iii-g",
+      "name": "StuG III Ausf. G",
+      "short_name": "StuG III G",
+      "tier": 5,
+      "type": "td",
+      "price": 422000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G17_JagdPzIV",
+          "nation": "germany",
+          "tank_xp": 31100,
+          "module_xp": 3400
+        },
+        {
+          "tank_id": "G40_Nashorn",
+          "nation": "germany",
+          "tank_xp": 26500,
+          "module_xp": 8000
+        }
+      ]
+    },
+    {
+      "tank_id": "G81_Pz_IV_AusfH",
+      "nation": "germany",
+      "row": 5,
+      "col": 5,
+      "slug": "pz-iv-h",
+      "name": "Pz.Kpfw. IV Ausf. H",
+      "short_name": "Pz. IV H",
+      "tier": 5,
+      "type": "medium",
+      "price": 373000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G27_VK3001P",
+          "nation": "germany",
+          "tank_xp": 26235,
+          "module_xp": 3400
+        }
+      ]
+    },
+    {
+      "tank_id": "G13_VK3001H",
+      "nation": "germany",
+      "row": 7,
+      "col": 5,
+      "slug": "vk-3001-h",
+      "name": "VK 30.01 (H)",
+      "short_name": "VK 30.01 H",
+      "tier": 5,
+      "type": "medium",
+      "price": 410000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G15_VK3601H",
+          "nation": "germany",
+          "tank_xp": 27000,
+          "module_xp": 6400
+        },
+        {
+          "tank_id": "G96_VK3002M",
+          "nation": "germany",
+          "tank_xp": 27350,
+          "module_xp": 6000
+        }
+      ]
+    },
+    {
+      "tank_id": "G26_VK1602",
+      "nation": "germany",
+      "row": 11,
+      "col": 5,
+      "slug": "leopard",
+      "name": "VK 16.02 Leopard",
+      "short_name": "Leopard",
+      "tier": 5,
+      "type": "light",
+      "price": 355000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G66_VK2801",
+          "nation": "germany",
+          "tank_xp": 28840,
+          "module_xp": 1360
+        }
+      ]
+    },
+    {
+      "tank_id": "G02_Hummel",
+      "nation": "germany",
+      "row": 1,
+      "col": 6,
+      "slug": "hummel",
+      "name": "Hummel",
+      "short_name": "Hummel",
+      "tier": 6,
+      "type": "spg",
+      "price": 930000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G49_G_Panther",
+          "nation": "germany",
+          "tank_xp": 61100,
+          "module_xp": 6300
+        }
+      ]
+    },
+    {
+      "tank_id": "G17_JagdPzIV",
+      "nation": "germany",
+      "row": 2,
+      "col": 6,
+      "slug": "jgpz-iv",
+      "name": "Jagdpanzer IV",
+      "short_name": "Jg.Pz. IV",
+      "tier": 6,
+      "type": "td",
+      "price": 910500,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G18_JagdPanther",
+          "nation": "germany",
+          "tank_xp": 60500,
+          "module_xp": 4600
+        }
+      ]
+    },
+    {
+      "tank_id": "G40_Nashorn",
+      "nation": "germany",
+      "row": 3,
+      "col": 6,
+      "slug": "nashorn",
+      "name": "Nashorn",
+      "short_name": "Nashorn",
+      "tier": 6,
+      "type": "td",
+      "price": 905000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G43_Sturer_Emil",
+          "nation": "germany",
+          "tank_xp": 43400,
+          "module_xp": 26000
+        }
+      ]
+    },
+    {
+      "tank_id": "G27_VK3001P",
+      "nation": "germany",
+      "row": 5,
+      "col": 6,
+      "slug": "vk-3001-p",
+      "name": "VK 30.01 (P)",
+      "short_name": "VK 30.01 P",
+      "tier": 6,
+      "type": "heavy",
+      "price": 920000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G57_PzVI_Tiger_P",
+          "nation": "germany",
+          "tank_xp": 45100,
+          "module_xp": 12000
+        }
+      ]
+    },
+    {
+      "tank_id": "G15_VK3601H",
+      "nation": "germany",
+      "row": 7,
+      "col": 6,
+      "slug": "vk-3601-h",
+      "name": "VK 36.01 (H)",
+      "short_name": "VK 36.01 H",
+      "tier": 6,
+      "type": "heavy",
+      "price": 935000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G04_PzVI_Tiger_I",
+          "nation": "germany",
+          "tank_xp": 45050,
+          "module_xp": 13915
+        }
+      ]
+    },
+    {
+      "tank_id": "G96_VK3002M",
+      "nation": "germany",
+      "row": 9,
+      "col": 6,
+      "slug": "vk-3002-m",
+      "name": "VK 30.02 (M)",
+      "short_name": "VK 30.02 M",
+      "tier": 6,
+      "type": "medium",
+      "price": 915000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G24_VK3002DB",
+          "nation": "germany",
+          "tank_xp": 46800,
+          "module_xp": 11250
+        },
+        {
+          "tank_id": "G03_PzV_Panther",
+          "nation": "germany",
+          "tank_xp": 53000,
+          "module_xp": 4600
+        }
+      ]
+    },
+    {
+      "tank_id": "G66_VK2801",
+      "nation": "germany",
+      "row": 11,
+      "col": 6,
+      "slug": "vk-2801",
+      "name": "VK 28.01",
+      "short_name": "VK 28.01",
+      "tier": 6,
+      "type": "light",
+      "price": 945000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G113_SP_I_C",
+          "nation": "germany",
+          "tank_xp": 53200,
+          "module_xp": 11250
+        }
+      ]
+    },
+    {
+      "tank_id": "G49_G_Panther",
+      "nation": "germany",
+      "row": 1,
+      "col": 7,
+      "slug": "gw-panther",
+      "name": "G.W. Panther",
+      "short_name": "G.W. Panther",
+      "tier": 7,
+      "type": "spg",
+      "price": 1380000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G94_GW_Tiger_P",
+          "nation": "germany",
+          "tank_xp": 113600,
+          "module_xp": 16010
+        }
+      ]
+    },
+    {
+      "tank_id": "G18_JagdPanther",
+      "nation": "germany",
+      "row": 2,
+      "col": 7,
+      "slug": "jpanther",
+      "name": "Jagdpanther",
+      "short_name": "JPanther",
+      "tier": 7,
+      "type": "td",
+      "price": 1345000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G37_Ferdinand",
+          "nation": "germany",
+          "tank_xp": 77500,
+          "module_xp": 26000
+        }
+      ]
+    },
+    {
+      "tank_id": "G43_Sturer_Emil",
+      "nation": "germany",
+      "row": 3,
+      "col": 7,
+      "slug": "st-emil",
+      "name": "Sturer Emil",
+      "short_name": "St. Emil",
+      "tier": 7,
+      "type": "td",
+      "price": 1300000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G99_RhB_Waffentrager",
+          "nation": "germany",
+          "tank_xp": 71000,
+          "module_xp": 58500
+        }
+      ]
+    },
+    {
+      "tank_id": "G57_PzVI_Tiger_P",
+      "nation": "germany",
+      "row": 5,
+      "col": 7,
+      "slug": "tiger-p",
+      "name": "Tiger (P)",
+      "short_name": "Tiger (P)",
+      "tier": 7,
+      "type": "heavy",
+      "price": 1395000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G67_VK4502A",
+          "nation": "germany",
+          "tank_xp": 90000,
+          "module_xp": 9500
+        },
+        {
+          "tank_id": "G115_Typ_205B",
+          "nation": "germany",
+          "tank_xp": 101500,
+          "module_xp": 6200
+        }
+      ]
+    },
+    {
+      "tank_id": "G04_PzVI_Tiger_I",
+      "nation": "germany",
+      "row": 7,
+      "col": 7,
+      "slug": "tiger-i",
+      "name": "Tiger I",
+      "short_name": "Tiger I",
+      "tier": 7,
+      "type": "heavy",
+      "price": 1390000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G16_PzVIB_Tiger_II",
+          "nation": "germany",
+          "tank_xp": 78000,
+          "module_xp": 37130
+        }
+      ]
+    },
+    {
+      "tank_id": "G03_PzV_Panther",
+      "nation": "germany",
+      "row": 9,
+      "col": 7,
+      "slug": "panther",
+      "name": "Panther",
+      "short_name": "Panther",
+      "tier": 7,
+      "type": "medium",
+      "price": 1380000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G64_Panther_II",
+          "nation": "germany",
+          "tank_xp": 88500,
+          "module_xp": 16100
+        }
+      ]
+    },
+    {
+      "tank_id": "G24_VK3002DB",
+      "nation": "germany",
+      "row": 10,
+      "col": 7,
+      "slug": "vk-3002-d",
+      "name": "VK 30.02 (D)",
+      "short_name": "VK 30.02 D",
+      "tier": 7,
+      "type": "medium",
+      "price": 1369000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G88_Indien_Panzer",
+          "nation": "germany",
+          "tank_xp": 81100,
+          "module_xp": 29220
+        }
+      ]
+    },
+    {
+      "tank_id": "G113_SP_I_C",
+      "nation": "germany",
+      "row": 11,
+      "col": 7,
+      "slug": "sp-i-c",
+      "name": "Spähpanzer SP I C",
+      "short_name": "SP I C",
+      "tier": 7,
+      "type": "light",
+      "price": 1360000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G126_HWK_12",
+          "nation": "germany",
+          "tank_xp": 102000,
+          "module_xp": 18800
+        }
+      ]
+    },
+    {
+      "tank_id": "G94_GW_Tiger_P",
+      "nation": "germany",
+      "row": 1,
+      "col": 8,
+      "slug": "gw-tiger-p",
+      "name": "G.W. Tiger (P)",
+      "short_name": "G.W. Tiger P",
+      "tier": 8,
+      "type": "spg",
+      "price": 2650000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G45_G_Tiger",
+          "nation": "germany",
+          "tank_xp": 184500,
+          "module_xp": 0
+        }
+      ]
+    },
+    {
+      "tank_id": "G37_Ferdinand",
+      "nation": "germany",
+      "row": 2,
+      "col": 8,
+      "slug": "ferdinand",
+      "name": "Ferdinand",
+      "short_name": "Ferdinand",
+      "tier": 8,
+      "type": "td",
+      "price": 2570000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G44_JagdTiger",
+          "nation": "germany",
+          "tank_xp": 150300,
+          "module_xp": 79800
+        }
+      ]
+    },
+    {
+      "tank_id": "G99_RhB_Waffentrager",
+      "nation": "germany",
+      "row": 3,
+      "col": 8,
+      "slug": "rhm-b-wt",
+      "name": "Rhm.-Borsig Waffenträger",
+      "short_name": "Rhm.-B. WT",
+      "tier": 8,
+      "type": "td",
+      "price": 2400000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G97_Waffentrager_IV",
+          "nation": "germany",
+          "tank_xp": 163500,
+          "module_xp": 63500
+        }
+      ]
+    },
+    {
+      "tank_id": "G67_VK4502A",
+      "nation": "germany",
+      "row": 4,
+      "col": 8,
+      "slug": "vk-4502-a",
+      "name": "VK 45.02 (P) Ausf. A",
+      "short_name": "VK 45.02 A",
+      "tier": 8,
+      "type": "heavy",
+      "price": 2435000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G58_VK4502P",
+          "nation": "germany",
+          "tank_xp": 168720,
+          "module_xp": 15520
+        }
+      ]
+    },
+    {
+      "tank_id": "G115_Typ_205B",
+      "nation": "germany",
+      "row": 5,
+      "col": 8,
+      "slug": "vk-10001-p",
+      "name": "VK 100.01 (P)",
+      "short_name": "VK 100.01 P",
+      "tier": 8,
+      "type": "heavy",
+      "price": 2540000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G110_Typ_205",
+          "nation": "germany",
+          "tank_xp": 169200,
+          "module_xp": 55000
+        }
+      ]
+    },
+    {
+      "tank_id": "G16_PzVIB_Tiger_II",
+      "nation": "germany",
+      "row": 7,
+      "col": 8,
+      "slug": "tiger-ii",
+      "name": "Tiger II",
+      "short_name": "Tiger II",
+      "tier": 8,
+      "type": "heavy",
+      "price": 2450000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G55_E-75",
+          "nation": "germany",
+          "tank_xp": 154000,
+          "module_xp": 22260
+        }
+      ]
+    },
+    {
+      "tank_id": "G64_Panther_II",
+      "nation": "germany",
+      "row": 9,
+      "col": 8,
+      "slug": "panther-ii",
+      "name": "Panther II",
+      "short_name": "Panther II",
+      "tier": 8,
+      "type": "medium",
+      "price": 2390000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G54_E-50",
+          "nation": "germany",
+          "tank_xp": 161790,
+          "module_xp": 15100
+        }
+      ]
+    },
+    {
+      "tank_id": "G88_Indien_Panzer",
+      "nation": "germany",
+      "row": 10,
+      "col": 8,
+      "slug": "indien-pz",
+      "name": "Indien-Panzer",
+      "short_name": "Indien-Pz.",
+      "tier": 8,
+      "type": "medium",
+      "price": 2420000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G91_Pro_Ag_A",
+          "nation": "germany",
+          "tank_xp": 172800,
+          "module_xp": 34800
+        }
+      ]
+    },
+    {
+      "tank_id": "G126_HWK_12",
+      "nation": "germany",
+      "row": 11,
+      "col": 8,
+      "slug": "hwk-12",
+      "name": "HWK 12",
+      "short_name": "HWK 12",
+      "tier": 8,
+      "type": "light",
+      "price": 2440000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G103_RU_251",
+          "nation": "germany",
+          "tank_xp": 197600,
+          "module_xp": 15400
+        }
+      ]
+    },
+    {
+      "tank_id": "G45_G_Tiger",
+      "nation": "germany",
+      "row": 1,
+      "col": 9,
+      "slug": "gw-tiger",
+      "name": "G.W. Tiger",
+      "short_name": "G.W. Tiger",
+      "tier": 9,
+      "type": "spg",
+      "price": 3600000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G61_G_E",
+          "nation": "germany",
+          "tank_xp": 266000,
+          "module_xp": 67500
+        }
+      ]
+    },
+    {
+      "tank_id": "G44_JagdTiger",
+      "nation": "germany",
+      "row": 2,
+      "col": 9,
+      "slug": "jagdtiger",
+      "name": "Jagdtiger",
+      "short_name": "Jagdtiger",
+      "tier": 9,
+      "type": "td",
+      "price": 3450000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G72_JagdPz_E100",
+          "nation": "germany",
+          "tank_xp": 210000,
+          "module_xp": 64800
+        }
+      ]
+    },
+    {
+      "tank_id": "G97_Waffentrager_IV",
+      "nation": "germany",
+      "row": 3,
+      "col": 9,
+      "slug": "wt-auf-pz-iv",
+      "name": "Waffenträger auf Pz. IV",
+      "short_name": "WT auf Pz. IV",
+      "tier": 9,
+      "type": "td",
+      "price": 3400000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G121_Grille_15_L63",
+          "nation": "germany",
+          "tank_xp": 205000,
+          "module_xp": 64800
+        }
+      ]
+    },
+    {
+      "tank_id": "G58_VK4502P",
+      "nation": "germany",
+      "row": 4,
+      "col": 9,
+      "slug": "vk-4502-b",
+      "name": "VK 45.02 (P) Ausf. B",
+      "short_name": "VK 45.02 B",
+      "tier": 9,
+      "type": "heavy",
+      "price": 3598000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G134_PzKpfw_VII",
+          "nation": "germany",
+          "tank_xp": 196470,
+          "module_xp": 83400
+        }
+      ]
+    },
+    {
+      "tank_id": "G110_Typ_205",
+      "nation": "germany",
+      "row": 5,
+      "col": 9,
+      "slug": "mauschen",
+      "name": "Mäuschen",
+      "short_name": "Mäuschen",
+      "tier": 9,
+      "type": "heavy",
+      "price": 3580000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G42_Maus",
+          "nation": "germany",
+          "tank_xp": 219660,
+          "module_xp": 63000
+        }
+      ]
+    },
+    {
+      "tank_id": "G55_E-75",
+      "nation": "germany",
+      "row": 7,
+      "col": 9,
+      "slug": "e-75",
+      "name": "E 75",
+      "short_name": "E 75",
+      "tier": 9,
+      "type": "heavy",
+      "price": 3480000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G56_E-100",
+          "nation": "germany",
+          "tank_xp": 183010,
+          "module_xp": 87450
+        }
+      ]
+    },
+    {
+      "tank_id": "G54_E-50",
+      "nation": "germany",
+      "row": 9,
+      "col": 9,
+      "slug": "e-50",
+      "name": "E 50",
+      "short_name": "E 50",
+      "tier": 9,
+      "type": "medium",
+      "price": 3450000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G73_E50_Ausf_M",
+          "nation": "germany",
+          "tank_xp": 183010,
+          "module_xp": 99570
+        }
+      ]
+    },
+    {
+      "tank_id": "G91_Pro_Ag_A",
+      "nation": "germany",
+      "row": 10,
+      "col": 9,
+      "slug": "leopard-pt-a",
+      "name": "Leopard Prototyp A",
+      "short_name": "Leopard PT A",
+      "tier": 9,
+      "type": "medium",
+      "price": 3450000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G89_Leopard1",
+          "nation": "germany",
+          "tank_xp": 216000,
+          "module_xp": 62000
+        }
+      ]
+    },
+    {
+      "tank_id": "G103_RU_251",
+      "nation": "germany",
+      "row": 11,
+      "col": 9,
+      "slug": "ru-251",
+      "name": "Spähpanzer Ru 251",
+      "short_name": "Ru 251",
+      "tier": 9,
+      "type": "light",
+      "price": 3460000,
+      "gold_price": 0,
+      "lines": [
+        {
+          "tank_id": "G125_Spz_57_Rh",
+          "nation": "germany",
+          "tank_xp": 298000,
+          "module_xp": 28100
+        }
+      ]
+    },
+    {
+      "tank_id": "G61_G_E",
+      "nation": "germany",
+      "row": 1,
+      "col": 10,
+      "slug": "gw-e-100",
+      "name": "G.W. E 100",
+      "short_name": "G.W. E 100",
+      "tier": 10,
+      "type": "spg",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G72_JagdPz_E100",
+      "nation": "germany",
+      "row": 2,
+      "col": 10,
+      "slug": "jgpz-e-100",
+      "name": "Jagdpanzer E 100",
+      "short_name": "Jg.Pz. E 100",
+      "tier": 10,
+      "type": "td",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G121_Grille_15_L63",
+      "nation": "germany",
+      "row": 3,
+      "col": 10,
+      "slug": "grille-15",
+      "name": "Grille 15",
+      "short_name": "Grille 15",
+      "tier": 10,
+      "type": "td",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G134_PzKpfw_VII",
+      "nation": "germany",
+      "row": 4,
+      "col": 10,
+      "slug": "pzkpfw-vii",
+      "name": "Pz.Kpfw. VII",
+      "short_name": "Pz.Kpfw. VII",
+      "tier": 10,
+      "type": "heavy",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G42_Maus",
+      "nation": "germany",
+      "row": 5,
+      "col": 10,
+      "slug": "maus",
+      "name": "Maus",
+      "short_name": "Maus",
+      "tier": 10,
+      "type": "heavy",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G56_E-100",
+      "nation": "germany",
+      "row": 7,
+      "col": 10,
+      "slug": "e-100",
+      "name": "E 100",
+      "short_name": "E 100",
+      "tier": 10,
+      "type": "heavy",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G73_E50_Ausf_M",
+      "nation": "germany",
+      "row": 9,
+      "col": 10,
+      "slug": "e-50-m",
+      "name": "E 50 Ausf. M",
+      "short_name": "E 50 M",
+      "tier": 10,
+      "type": "medium",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G89_Leopard1",
+      "nation": "germany",
+      "row": 10,
+      "col": 10,
+      "slug": "leopard-1",
+      "name": "Leopard 1",
+      "short_name": "Leopard 1",
+      "tier": 10,
+      "type": "medium",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    },
+    {
+      "tank_id": "G125_Spz_57_Rh",
+      "nation": "germany",
+      "row": 11,
+      "col": 10,
+      "slug": "rhm-pzw",
+      "name": "Rheinmetall Panzerwagen",
+      "short_name": "Rhm. Pzw.",
+      "tier": 10,
+      "type": "light",
+      "price": 6100000,
+      "gold_price": 0,
+      "lines": null
+    }
+  ],
+  "prems": [
+    {
+      "tank_id": "G108_PzKpfwII_AusfD",
+      "nation": "germany",
+      "row": 1,
+      "col": 2,
+      "slug": "pz-ii-d",
+      "name": "Pz.Kpfw. II Ausf. D",
+      "short_name": "Pz. II D",
+      "tier": 2,
+      "type": "light",
+      "price": 0,
+      "gold_price": 750,
+      "lines": null
+    },
+    {
+      "tank_id": "G34_S35_captured",
+      "nation": "germany",
+      "row": 1,
+      "col": 3,
+      "slug": "pz-s35",
+      "name": "Pz.Kpfw. S35 739 (f)",
+      "short_name": "Pz. S35",
+      "tier": 3,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 1000,
+      "lines": null
+    },
+    {
+      "tank_id": "G50_T-15",
+      "nation": "germany",
+      "row": 2,
+      "col": 3,
+      "slug": "pz-t-15",
+      "name": "Pz.Kpfw. T 15",
+      "short_name": "Pz. T 15",
+      "tier": 3,
+      "type": "light",
+      "price": 0,
+      "gold_price": 900,
+      "lines": null
+    },
+    {
+      "tank_id": "G100_Gtraktor_Krupp",
+      "nation": "germany",
+      "row": 3,
+      "col": 3,
+      "slug": "grtr",
+      "name": "Großtraktor - Krupp",
+      "short_name": "Gr.Tr.",
+      "tier": 3,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 950,
+      "lines": null
+    },
+    {
+      "tank_id": "G35_B-1bis_captured",
+      "nation": "germany",
+      "row": 1,
+      "col": 4,
+      "slug": "pz-b2",
+      "name": "Pz.Kpfw. B2 740 (f)",
+      "short_name": "Pz. B2",
+      "tier": 4,
+      "type": "heavy",
+      "price": 0,
+      "gold_price": 1250,
+      "lines": null
+    },
+    {
+      "tank_id": "G46_T-25",
+      "nation": "germany",
+      "row": 1,
+      "col": 5,
+      "slug": "pz-t-25",
+      "name": "Pz.Kpfw. T 25",
+      "short_name": "Pz. T 25",
+      "tier": 5,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 1500,
+      "lines": null
+    },
+    {
+      "tank_id": "G122_VK6501H",
+      "nation": "germany",
+      "row": 2,
+      "col": 5,
+      "slug": "vk-6501-h",
+      "name": "VK 65.01 (H)",
+      "short_name": "VK 65.01 (H)",
+      "tier": 5,
+      "type": "heavy",
+      "price": 0,
+      "gold_price": 1500,
+      "lines": null
+    },
+    {
+      "tank_id": "G107_PzKpfwIII_AusfK",
+      "nation": "germany",
+      "row": 3,
+      "col": 5,
+      "slug": "pz-iii-k",
+      "name": "Pz.Kpfw. III Ausf. K",
+      "short_name": "Pz. III K",
+      "tier": 5,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 2200,
+      "lines": null
+    },
+    {
+      "tank_id": "G116_Turan_III_prot",
+      "nation": "germany",
+      "row": 4,
+      "col": 5,
+      "slug": "turan-iii-pt",
+      "name": "Turán III prototípus",
+      "short_name": "Turán III PT",
+      "tier": 5,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 1700,
+      "lines": null
+    },
+    {
+      "tank_id": "G41_DickerMax",
+      "nation": "germany",
+      "row": 1,
+      "col": 6,
+      "slug": "dicker-max",
+      "name": "Dicker Max",
+      "short_name": "Dicker Max",
+      "tier": 6,
+      "type": "td",
+      "price": 0,
+      "gold_price": 2800,
+      "lines": null
+    },
+    {
+      "tank_id": "G77_PzIV_Schmalturm",
+      "nation": "germany",
+      "row": 2,
+      "col": 6,
+      "slug": "pz-iv-s",
+      "name": "Pz.Kpfw. IV Schmalturm",
+      "short_name": "Pz. IV S.",
+      "tier": 6,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 3300,
+      "lines": null
+    },
+    {
+      "tank_id": "G136_Tiger_131",
+      "nation": "germany",
+      "row": 3,
+      "col": 6,
+      "slug": "tiger-131",
+      "name": "Tiger 131",
+      "short_name": "Tiger 131",
+      "tier": 6,
+      "type": "heavy",
+      "price": 0,
+      "gold_price": 3500,
+      "lines": null
+    },
+    {
+      "tank_id": "G109_Steyr_WT",
+      "nation": "germany",
+      "row": 1,
+      "col": 7,
+      "slug": "steyr-wt",
+      "name": "Krupp-Steyr Waffenträger",
+      "short_name": "Steyr WT",
+      "tier": 7,
+      "type": "td",
+      "price": 0,
+      "gold_price": 5300,
+      "lines": null
+    },
+    {
+      "tank_id": "G78_Panther_M10",
+      "nation": "germany",
+      "row": 2,
+      "col": 7,
+      "slug": "pantherm10",
+      "name": "Panther/M10",
+      "short_name": "Panther/M10",
+      "tier": 7,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 5100,
+      "lines": null
+    },
+    {
+      "tank_id": "G118_VK4503",
+      "nation": "germany",
+      "row": 3,
+      "col": 7,
+      "slug": "vk-4503",
+      "name": "VK 45.03",
+      "short_name": "VK 45.03",
+      "tier": 7,
+      "type": "heavy",
+      "price": 0,
+      "gold_price": 6900,
+      "lines": null
+    },
+    {
+      "tank_id": "G112_KanonenJagdPanzer_105",
+      "nation": "germany",
+      "row": 1,
+      "col": 8,
+      "slug": "kanjpz-105",
+      "name": "Kanonenjagdpanzer 105",
+      "short_name": "KanJPz 105",
+      "tier": 8,
+      "type": "td",
+      "price": 0,
+      "gold_price": 9500,
+      "lines": null
+    },
+    {
+      "tank_id": "G140_HWK_30",
+      "nation": "germany",
+      "row": 2,
+      "col": 8,
+      "slug": "hwk-30",
+      "name": "HWK 30",
+      "short_name": "HWK 30",
+      "tier": 8,
+      "type": "light",
+      "price": 0,
+      "gold_price": 5800,
+      "lines": null
+    },
+    {
+      "tank_id": "G142_M48RPz",
+      "nation": "germany",
+      "row": 3,
+      "col": 8,
+      "slug": "m48-rpz",
+      "name": "M48A2 Räumpanzer",
+      "short_name": "M48 RPz",
+      "tier": 8,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 6700,
+      "lines": null
+    },
+    {
+      "tank_id": "G51_Lowe",
+      "nation": "germany",
+      "row": 4,
+      "col": 8,
+      "slug": "lowe",
+      "name": "Löwe",
+      "short_name": "Löwe",
+      "tier": 8,
+      "type": "heavy",
+      "price": 0,
+      "gold_price": 11200,
+      "lines": null
+    },
+    {
+      "tank_id": "G105_T-55_NVA_DDR",
+      "nation": "germany",
+      "row": 1,
+      "col": 9,
+      "slug": "t-55a",
+      "name": "T 55A",
+      "short_name": "T 55A",
+      "tier": 9,
+      "type": "medium",
+      "price": 0,
+      "gold_price": 17500,
+      "lines": null
+    }
+  ],
+  "nation": "germany",
+  "version": "v11900"
+}
