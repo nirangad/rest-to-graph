@@ -1,4 +1,5 @@
 const graphql = require("graphql");
+const TankTypeModel = require("./models/TankTypeModel");
 
 const {
   GraphQLObjectType,
@@ -32,7 +33,10 @@ const RootQuery = new GraphQLObjectType({
     tank: {
       type: TankType,
       args: { id: { type: GraphQLString } },
-      resolve(parent, args) {},
+      async resolve(parent, args) {
+        const tank = await TankTypeModel.findOne({ tank_id: args.id });
+        return tank;
+      },
     },
   },
 });
