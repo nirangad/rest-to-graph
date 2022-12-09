@@ -9,6 +9,7 @@ const {
   GraphQLInt,
   GraphQLFloat,
   GraphQLBoolean,
+  GraphQLList,
 } = graphql;
 
 const TankType = new GraphQLObjectType({
@@ -26,6 +27,13 @@ const TankType = new GraphQLObjectType({
     not_in_shop: { type: GraphQLBoolean },
     nation: { type: GraphQLString },
     tags: { type: GraphQLString },
+    stats: {
+      type: new GraphQLList(StatType),
+      async resolve(parent, args) {
+        const stats = await StatTypeModel.find({ tank_id: parent.tank_id });
+        return stats;
+      },
+    },
   }),
 });
 
@@ -109,12 +117,26 @@ const RootQuery = new GraphQLObjectType({
         return tank;
       },
     },
+    tanks: {
+      type: new GraphQLList(TankType),
+      async resolve(_parent, args) {
+        const tanks = await TankTypeModel.find({});
+        return tanks;
+      },
+    },
     stat: {
       type: StatType,
       args: { id: { type: GraphQLString } },
       async resolve(_parent, args) {
         const stat = await StatTypeModel.findOne({ _id: args.id });
         return stat;
+      },
+    },
+    stats: {
+      type: new GraphQLList(StatType),
+      async resolve(_parent, args) {
+        const stats = await StatTypeModel.find({});
+        return stats;
       },
     },
   },
