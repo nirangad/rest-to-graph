@@ -55,19 +55,6 @@ const RootQuery = new GraphQLObjectType({
     },
   },
 });
-const x = {
-  tank_id: "A01_T1_Cunningham",
-  name: "T1 Cunningham",
-  short_name: "T1",
-  slug: "t1",
-  type: "light",
-  tier: 1,
-  price: 0,
-  gold_price: 0,
-  not_in_shop: false,
-  nation: "usa",
-  tags: "lightTank,HD",
-};
 
 const Mutation = new GraphQLObjectType({
   name: "Mutation",
